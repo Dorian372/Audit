@@ -41,31 +41,6 @@ $Form.controls.AddRange(@($Bouton,$Label))
 ############################################# Fin Audit Services #############################################
 
 
-############################################# Début Audit DHCP #############################################
-##Text box
-
-$LabelDHCP = New-Object System.Windows.Forms.Label
-$LabelDHCP.Location = New-Object System.Drawing.Point(300,50)
-$LabelDHCP.Text = " Audit DHCP "
-
-#Création du bouton dans une variable
-$BoutonDHCP = New-Object System.Windows.Forms.Button
-
-#Localisation du bouton
-$BoutonDHCP.Location = New-Object System.Drawing.Point(300,110)
-
-#Paramètre du bouton
-$BoutonDHCP.Width = 110
-$BoutonDHCP.Height = 30
-$BoutonDHCP.Text = " Cliquez moi ! "
-
-
-$Form.controls.AddRange(@($BoutonDHCP,$LabelDHCP))
-
-#Action faites lors d'un click
-#$BoutonDHCP.Add_Click({ })
-
-############################################# Fin Audit DHCP #############################################
 
 
 ############################################# Début Audit DNS #############################################
